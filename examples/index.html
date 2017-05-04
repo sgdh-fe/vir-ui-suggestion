@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>examples</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      list-style: none
+    }
+
+    .container {
+      width: 506px;
+      height: 30px;
+      margin: 100px auto 0;
+      border: 1px solid #8eafd7;
+    }
+
+    .container input {
+      display: block;
+      border: 0 none;
+      outline: none;
+      width: 494px;
+      height: 16px;
+      line-height: 16px;
+      padding: 7px 6px 7px 6px;
+      font-size: 14px;
+      float: left;
+    }
+
+    .container .sugglist {
+      display: none
+    }
+
+    .container .sugglist li.cur {
+      color: #FFF;
+      background-color: #36C
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <input type="text" autocomplete="off">
+    <div class="sugglist"></div>
+  </div>
+
+  <script src="https://unpkg.com/jquery"></script>
+  <script src="https://unpkg.com/vir"></script>
+  <script src="../dist/index.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+{
+  "presets": [
+    ["env", {
+      "loose": true,
+      "modules": false
+    }]
+  ],
+  "plugins": [
+    "external-helpers",
+    "transform-strict-mode",
+    "transform-object-assign"
+  ]
+}
